@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react';
 
 /**
  * Custom hook to add and remove event listeners.
- * @param {string} eventType The event type to listen for (e.g., "click", "keydown", etc.).
+ * @param {string} eventType The event type to listen for (e.g., 'click', 'keydown', etc.).
  * @param {(event: Event) => void} callback The event callback function.
  * @param {EventTarget | null} element The target element to attach the event listener. Defaults to `window`.
  */
